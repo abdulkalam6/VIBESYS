@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us | VIBESYS - Get in Touch</title>
+    <!-- Bootstrap 5 CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts - Inter -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Header / Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top shadow-sm">
+      <div class="container">
+        <a
+          class="navbar-brand fw-bold text-primary-custom fs-3"
+          href="index.html"
+          >VIBESYS</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="products.html">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Uniform Inner Banner -->
+    <header
+      class="inner-banner"
+      style="margin-top: 80px;
+        background-image: url(&quot;https://images.unsplash.com/photo-1423666639041-f56000c27a9a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80&quot;);
+      "
+    >
+      <div class="banner-content">
+        <h1>Contact Us</h1>
+      </div>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="section-padding">
+      <div class="container">
+        <div class="row g-5">
+          <!-- Contact Info -->
+          <div class="col-lg-4">
+            <div class="card bg-primary-custom text-white p-4 h-100">
+              <h3 class="fw-bold mb-4">Contact Information</h3>
+              <p class="mb-5 opacity-75">
+                Fill out the form and our team will get back to you within 24
+                hours.
+              </p>
+
+              <div class="d-flex mb-4">
+                <div class="me-3 fs-4"><i class="fas fa-phone"></i></div>
+                <div>
+                  <h6 class="fw-bold mb-1">Call Us</h6>
+                  <p class="small mb-0">+91 84384 43477</p>
+                </div>
+              </div>
+
+              <div class="d-flex mb-4">
+                <div class="me-3 fs-4"><i class="fas fa-envelope"></i></div>
+                <div>
+                  <h6 class="fw-bold mb-1">Email Us</h6>
+                  <p class="small mb-0">info@vibesys.com</p>
+                </div>
+              </div>
+
+              <div class="d-flex mb-4">
+                <div class="me-3 fs-4">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div>
+                  <h6 class="fw-bold mb-1">Visit Us</h6>
+                  <p class="small mb-0">
+                    RMZ MILLENIA BUSINESS PARK-II, MGR Main Rd, Perungudi,
+                    Chennai, TN 600096
+                  </p>
+                </div>
+              </div>
+
+              <div class="social-links mt-auto">
+                <a href="#" aria-label="LinkedIn" class="text-white"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+                <a href="#" aria-label="Twitter" class="text-white"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                <a href="#" aria-label="Facebook" class="text-white"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="col-lg-8">
+            <div class="card p-4 p-md-5">
+              <h3 class="fw-bold mb-4">Send us a Message</h3>
+              <form id="contactForm">
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <label class="form-label fw-semibold">Your Name</label>
+                    <input
+                      type="text"
+                      class="form-control p-3 bg-light border-0"
+                      id="name"
+                      placeholder="John Doe"
+                    />
+                    <div class="invalid-feedback">Name is required.</div>
+                  </div>
+                  <div class="col-md-6">
+                    <label class="form-label fw-semibold">Email Address</label>
+                    <input
+                      type="email"
+                      class="form-control p-3 bg-light border-0"
+                      id="email"
+                      placeholder="john@example.com"
+                    />
+                    <div class="invalid-feedback">
+                      Please enter a valid email address.
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <label class="form-label fw-semibold">Phone Number</label>
+                    <input
+                      type="tel"
+                      class="form-control p-3 bg-light border-0"
+                      id="phone"
+                      placeholder="+1 (555) 000-0000"
+                    />
+                  </div>
+                  <div class="col-12">
+                    <label class="form-label fw-semibold"
+                      >How can we help?</label
+                    >
+                    <textarea
+                      class="form-control p-3 bg-light border-0"
+                      id="message"
+                      rows="5"
+                      placeholder="Tell us about your project..."
+                    ></textarea>
+                    <div class="invalid-feedback">Message cannot be empty.</div>
+                  </div>
+                  <div class="col-12 mt-4 text-end">
+                    <button
+                      type="submit"
+                      class="btn btn-primary-custom px-5 py-3"
+                    >
+                      Send Message <i class="fas fa-paper-plane ms-2"></i>
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="section-padding pt-0">
+      <div class="container">
+        <div class="rounded-4 overflow-hidden shadow-sm">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.8225574765!2d80.2443!3d12.964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525d6254593f61%3A0xc3b838c351b0f195!2sRMZ%20Millenia%20Business%20Park%20II!5e0!3m2!1sen!2sin!4v1707060000000!5m2!1sen!2sin"
+            width="100%"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-3 col-md-6">
+            <h4 class="text-white fw-bold mb-3">VIBESYS</h4>
+            <p class="small opacity-75">
+              Building intelligent software products and IT services for modern
+              businesses. We help organizations scale, innovate, and succeed
+              through technology.
+            </p>
+            <div class="footer-social mt-4">
+              <a href="#" aria-label="LinkedIn"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a href="#" aria-label="Twitter"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="#" aria-label="Facebook"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" aria-label="Instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5>Quick Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5>Our Services</h5>
+            <ul class="list-unstyled">
+              <li><a href="services.html">Web Development</a></li>
+              <li><a href="services.html">Mobile Apps</a></li>
+              <li><a href="services.html">Cloud Solutions</a></li>
+              <li><a href="services.html">Cybersecurity</a></li>
+              <li><a href="services.html">AI & Automation</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5>Contact Us</h5>
+            <ul class="list-unstyled small">
+              <li class="mb-3 d-flex align-items-start">
+                <i class="fas fa-envelope me-3 mt-1 text-primary-custom"></i>
+                <span>info@vibesys.com</span>
+              </li>
+              <li class="mb-3 d-flex align-items-start">
+                <i class="fas fa-phone me-3 mt-1 text-primary-custom"></i>
+                <span>+91 84384 43477</span>
+              </li>
+              <li class="d-flex align-items-start">
+                <i
+                  class="fas fa-map-marker-alt me-3 mt-1 text-primary-custom"
+                ></i>
+                <span>
+                  RMZ MILLENIA BUSINESS PARK-II, MGR Main Rd, Perungudi,
+                  Chennai, TN 600096
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr class="footer-divider" />
+        <div class="text-center pt-2">
+          <p class="mb-0 small opacity-50">
+            &copy; 2026 VIBESYS. All Rights Reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
