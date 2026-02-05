@@ -91,6 +91,29 @@ h6 {
   box-shadow: none;
 }
 
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.navbar-logo {
+  height: 65px;
+  width: auto;
+  transition: var(--transition);
+}
+
+.navbar.scrolled .navbar-logo {
+  height: 50px;
+}
+
+.footer-logo {
+  height: 50px;
+  width: auto;
+  margin-bottom: 25px;
+  display: block;
+}
+
 .navbar.scrolled {
   padding: 10px 0;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
