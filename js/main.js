@@ -67,13 +67,17 @@ document.addEventListener("DOMContentLoaded", () => {
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
-        entry.target.classList.add("animate__animated", "animate__fadeInUp");
+        entry.target.classList.add("active");
+        // Maintain support for legacy animate-on-scroll
+        if (entry.target.classList.contains("animate-on-scroll")) {
+          entry.target.classList.add("animate__animated", "animate__fadeInUp");
+        }
         observer.unobserve(entry.target);
       }
     });
   }, observerOptions);
 
-  document.querySelectorAll(".animate-on-scroll").forEach((el) => {
+  document.querySelectorAll(".animate-on-scroll, .reveal, .fade-up, .zoom-in").forEach((el) => {
     observer.observe(el);
   });
 });
